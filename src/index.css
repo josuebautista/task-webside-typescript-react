@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Neucha', cursive;
+  background-color: rgb(59 130 240)
+}
+
+.transitioninput:focus{
+  box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.2 );
+}

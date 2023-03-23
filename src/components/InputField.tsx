@@ -19,7 +19,7 @@ export const InputField = () => {
           type="input"
           ref={inputRef}
           className="py-4 w-2/3 rounded-full h-full text-black text-center text-2xl transitioninput transition delay-150 focus:scale-105 focus:rounded-full"
-          placeholder=" Enter a taskt"
+          placeholder=" Enter a task"
           onChange={(e) => setTodo(e.target.value)}
           value={todo}>
           

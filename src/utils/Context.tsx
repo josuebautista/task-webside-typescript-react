@@ -27,7 +27,6 @@ const AppProvider = ({ children }: Props) => {
   const [focusEdit, setFocusEdit] = useState<boolean>(false);
   const [list2Id, setList2Id] = useState<string>(generateId());
   const [list1Id, setList1Id] = useState<string>(generateId());
-  const [change, setChange] = useState<boolean>(false);
 
   useEffect(() => {
     setList1Id(generateId())
